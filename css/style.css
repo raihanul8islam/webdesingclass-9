@@ -1,0 +1,157 @@
+/* commom css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.hedding{
+    text-align: center;
+}
+.hedding h1{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.hedding p{
+    color: #afb2b5;
+    font-size: 16px;
+    padding: 30px;
+}
+.button{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 19px 44px;
+    display: inline-block;
+}
+
+
+
+
+
+/* commom css ends */
+
+/* navtag start */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 22px;
+    display: block;
+}
+/* navtag ends */
+
+/* banner starts */
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 727px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    height: 720px;
+}
+#banner .banner-con{
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+#banner .banner-con h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner .banner-con h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#benner .banner-con p{
+    font-size: 16px;
+}
+#banner .banner-con img{
+    margin: 50px 0;
+}
+
+
+
+/* banner ends */
+
+/* about starts */
+#about{
+    padding: 98px 0;
+}
+#about .rup{
+    text-align: center;
+    font-size: 16px;
+    color: #b8babd;
+    font-weight: 400;
+   
+    
+}
+#about .rup p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .about_card{
+    width: 25%;
+    padding: 127px 0;
+    text-align: center;
+}
+#about .about_card h4{
+    padding: 33px 0;
+    font-weight: 800;
+    font-size: 16px;
+    color: #a5a7ab;
+}
+#about .about_card p{
+    font-size: 11px;
+    color: #a5a7ab;
+}
+#about .about_card i{
+    color: #51b4b0;
+    font-size: 30px;
+
+}
+/* about ends */
