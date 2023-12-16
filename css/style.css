@@ -155,3 +155,89 @@ nav .menu ul li a{
 
 }
 /* about ends */
+
+/* service starts */
+
+#services{
+    background-image: url(../images/banner-2.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#services .hedding{
+    text-align: left;
+    padding-top: 72px;
+}
+
+
+#services .para{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#services .row{
+    width: 50%;
+}
+#services .para1{
+    width: 50%;
+    padding: 40px;
+
+}
+#services .para1 h4{
+    font-size: 16px;
+    font-weight: 800;
+    
+    padding: 10px;
+    color: #7e8287;
+
+}
+#services .para1 p{
+    
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    
+}
+#services .para1 i{
+    text-align: left;
+    font-size: 30px;
+    color: #51b4b0;
+    padding: 10px;
+}
+
+
+/* services ends */
+
+/* my work */
+
+
+#my_work .hedding{
+    margin-top: 104px;
+}
+
+#my_work .rup1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    text-align: center;
+}
+#my_work{
+    padding: 20px;
+}
+#my_work .image{
+    width: 100%;
+    text-align: center;
+}
+#my_work .image2{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+/* my work ends */
